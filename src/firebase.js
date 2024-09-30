@@ -3,17 +3,16 @@ import 'firebase/firestore';
 import 'firebase/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBHFzaPMOLdk2u0gKW_YzbL2RKQ6at5rnc",
-    authDomain: "atividadesomativa2-98f41.firebaseapp.com",
-    projectId: "atividadesomativa2-98f41",
-    storageBucket: "atividadesomativa2-98f41.appspot.com",
-    messagingSenderId: "677862904280",
-    appId: "1:677862904280:web:9bcc751172d202966622ad"
+    apiKey: "AIzaSyA8mdJUsajkjlExyGuagJpquH-7uB29XiQ",
+    authDomain: "atividadesomativa2-5ea32.firebaseapp.com",
+    projectId: "atividadesomativa2-5ea32",
+    storageBucket: "atividadesomativa2-5ea32.appspot.com",
+    messagingSenderId: "165147076686",
+    appId: "1:165147076686:web:9bcc751172d202966622ad"
 };
 
-
-  if(!firebase.apps.length){
+if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
-  }
+}
 
-  export default firebase;
+export default firebase;
